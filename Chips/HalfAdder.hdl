@@ -1,0 +1,10 @@
+
+
+CHIP HalfAdder {
+
+    IN  a, b;
+    OUT sum,   // LSB of a + b
+        carry; // MSB of a + b
+
+    BUILTIN HalfAdder;
+}

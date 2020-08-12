@@ -1,0 +1,45 @@
+
+CHIP ALU{
+IN a[16],b[16],za,na,zb,nb,f,no;
+OUT out[16],zr,ng,ab1,ab2,ab3;
+PARTS:
+
+//za,zb
+Mux16(a=a,b=false,sel=za,out=adepoisza);
+Mux16(a=b,b=false,sel=zb,out=bdepoiszb);
+
+//na,nb
+Not16(in=adepoisza,out=nota);
+Not16(in=bdepoiszb,out=notb);
+
+Mux16(a=adepoisza,b=nota,sel=na,out=adepoisna);
+Mux16(a=bdepoiszb,b=notb,sel=nb,out=bdepoisnb);
+
+// f
+Add16(a=adepoisna,b=bdepoisnb,out=abOR);
+And16(a=adepoisna,b=bdepoisnb,out=ab);
+Mux16(a=ab,b=abOR,sel=f,out=abdepoisf);
+
+// no e ng
+Not16(in=abdepoisf,out=notabdepoisf);
+Mux16(a=abdepoisf, b=notabdepoisf, sel=no, out=out, out[0..7]=zr1, out[8..15]=zr2, out[15]=ng);
+
+// zr
+Or8Way(in=zr1, out=zr3);
+Or8Way(in=zr2, out=zr4);
+Or(a=zr3, b=zr4, out=zr5);
+Not(in=zr5, out=zr);
+
+//ab1
+Not16(in=bdepoisnb,out=notbdepoisnb);
+And16(a=adepoisna,b=notbdepoisnb,out[14]=ab1);
+
+//ab2
+Not16(in=adepoisna,out=notadepoisna);
+And16(a=bdepoisnb,b=notadepoisna,out[14]=ab2);
+
+// ab3
+Xor16(a=adepoisna,b=bdepoisnb,out=o1);
+Not16(in=o1,out=o2);
+And16way(in=o2,out=ab3);
+}

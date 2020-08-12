@@ -1,0 +1,10 @@
+
+
+CHIP RAM64 {
+
+    IN in[16], load, address[6];
+    OUT out[16];
+
+    BUILTIN RAM64;
+    CLOCKED in, load;
+}

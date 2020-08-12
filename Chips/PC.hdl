@@ -1,0 +1,10 @@
+
+
+CHIP PC {
+
+    IN  in[16], load, inc, reset;
+    OUT out[16];
+
+    BUILTIN PC;
+    CLOCKED in, load, inc, reset;
+}

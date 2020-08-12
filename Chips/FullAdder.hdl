@@ -1,0 +1,11 @@
+
+
+CHIP FullAdder {
+
+    IN  a, b, c;
+    OUT sum,     // LSB of a + b + c
+        carry;   // MSB of a + b + c
+
+    BUILTIN FullAdder;
+}
+

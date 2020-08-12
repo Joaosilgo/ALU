@@ -1,0 +1,9 @@
+
+CHIP Inc16 {
+
+    IN  in[16];
+    OUT out[16];
+
+    BUILTIN Inc16;
+}
+

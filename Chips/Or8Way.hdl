@@ -1,0 +1,8 @@
+
+CHIP Or8Way {
+
+    IN  in[8];
+    OUT out;
+
+    BUILTIN Or8Way;
+}

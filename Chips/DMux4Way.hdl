@@ -1,0 +1,9 @@
+
+CHIP DMux4Way {
+
+    IN  in, sel[2];
+    OUT a, b, c, d;
+
+    BUILTIN DMux4Way;
+}
+

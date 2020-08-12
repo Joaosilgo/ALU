@@ -1,0 +1,9 @@
+
+
+CHIP And {
+
+    IN  a, b;
+    OUT out;
+
+    BUILTIN And;
+}

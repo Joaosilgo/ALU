@@ -1,0 +1,10 @@
+
+
+CHIP Bit {
+
+    IN  in, load;
+    OUT out;
+
+    BUILTIN Bit;
+    CLOCKED in, load;
+}

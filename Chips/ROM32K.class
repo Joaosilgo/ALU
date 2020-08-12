@@ -1,0 +1,58 @@
+ ˛∫æ   / €
+ ? ]  Ä 	 > ^
+ _ `
+ _ a b
+  ]	 > c
+  d
+  e
+  f g
+  h
+  i
+  j
+  k
+  l	 > m
+ n o	 > p
+ n q
+  r
+ s t u
+ v w
+  x
+  y
+ > z
+ > {
+ > | }
+  ~
+  Ä
+ > Å Ç
+ # É
+ > Ñ
+  Ö
+ Ü á
+ Ü à
+ s â
+ s ä
+ > ã å
+  ç
+ > é è ê
+ / ë
+ v í ì
+ v î ï ñ
+ 6 ]
+ _ ó
+ 6 ò ô
+ 6 ö
+ 6 õ ú ù û ü † gui LSimulatorsGUI/ROMComponent; values [S <init> ()V Code 	reCompute getGUIComponent ()Ljava/awt/Component; loadProgram (Ljava/lang/String;)V 
+Exceptions programChanged (LHack/Events/ProgramEvent;)V valueChanged )(LHack/ComputerParts/ComputerPartEvent;)V updateValue (IS)V guiGainedFocus 
+getValueAt (I)S 
+checkIndex (I)V 
+setValueAt 	doCommand ([Ljava/lang/String;)V F G D E ° ¢ £ § • SimulatorsGUI/ROMComponent B C ¶ ß ® Y © ™ ROM: ´ M ¨ G ≠ Æ Ø ∞ ± ≤ ≥ ¥ µ ∂ ∑ ∏ ¥ π ∫ ª Y º L Ω .hack æ ø ¿ ¡ Y ¬ M I G √ G ƒ G 
+Loading... ≈ M ∆ « » L M !Hack/Assembler/AssemblerException … »   M À G Ã Õ ∑ Œ œ ¢ – — “ S T Illegal instruction Z T X Y Hack/Gates/GateException Illegal index F M ” » LOAD ‘ ¿ Illegal number of arguments java/lang/StringBuffer ’ ÷ ◊ ÿ / ◊ Ÿ ⁄ » &This chip doesn't support this command builtInChips/ROM32K Hack/Gates/BuiltInGateWithGUI ,Hack/ComputerParts/ComputerPartEventListener  Hack/Events/ProgramEventListener Hack/Gates/GatesManager getInstance ()LHack/Gates/GatesManager; isChipsGUIEnabled ()Z setContents ([S)V setVisibleRows setLocation (II)V setName reset addListener 1(LHack/ComputerParts/ComputerPartEventListener;)V addProgramListener %(LHack/Events/ProgramEventListener;)V addErrorListener #(LHack/Events/ErrorEventListener;)V 	inputPins [LHack/Gates/Node; Hack/Gates/Node get ()S 
+outputPins set (S)V 
+setPointer &Hack/Assembler/HackAssemblerTranslator (Ljava/lang/String;IS)[S java/lang/String endsWith (Ljava/lang/String;)Z setNumericFormat 
+setProgram 
+evalParent clearErrorListeners showMessage Hack/Events/ProgramEvent getProgramFileName ()Ljava/lang/String; 
+getMessage notifyErrorListeners hideMessage $Hack/ComputerParts/ComputerPartEvent getValue getIndex ()I *()LHack/Assembler/HackAssemblerTranslator; 
+codeToText (S)Ljava/lang/String; toUpperCase equalsIgnoreCase getWorkingDir ()Ljava/io/File; append ,(Ljava/lang/Object;)Ljava/lang/StringBuffer; ,(Ljava/lang/String;)Ljava/lang/StringBuffer; toString ! > ?  @ A   B C    D E     F G  H   v     j*∑ *º	µ ∏ ∂ ô W*ª Y∑ µ *¥ *¥ ∂ 	*¥ ∂ 
+*¥ F'∂ *¥ ∂ *¥ ∂ *¥ *∂ *¥ *∂ *¥ *∂ ±      I G  H   5     )*¥ 2∂ <*¥ 2*¥ 5∂ *¥ ∆ *¥ ∂ ±      J K  H        *¥ ∞      L M  H   _     S+∏ M*¥ ∆ +∂ ô *¥ ∂ ß *¥ ∂ *,µ *¥ ∆ *¥ +∂ *¥ *¥ ∂ 	*∂ *∂ ±     N     #  O P  H   K     7*∂ *¥ ∆ *¥ ∂  *+∂ !∂ "ß M*,∂ $∂ %*¥ ∆ 
+*¥ ∂ &±     #    Q R  H   Q     =+∂ '=+∂ (>*∂ ∏ )∂ *W*∑ +ß  :*,∂ %*¥ ∆ *¥ *¥ 5∂ -±     #    S T  H   ,      *¥ V*¥ ∆ *¥ ∂ -*∂ *∂ ±      U G  H         ±      V W  H        *∑ .*¥ 5¨     N     /  X Y  H   $     õ *¥ æ° ª /Y0∑ 1ø±     N     /  Z T  H        *∑ .*∑ +±     N     /  [ \  H   †     å+2∂ 23∂ 4ô v+æü ª /Y5∑ 1ø*¥ ∆ *¥ ∂  ª 6Y∑ 7∏ ∂ 8∂ 9:∂ ;+2∂ ;∂ <M*,∂ "ß N*¥ ∆ 
+*¥ ∂ &ª /Y-∂ $∑ 1ø*¥ ∆ *¥ ∂ &ß ª /Y=∑ 1ø±  M R U #   N     /  

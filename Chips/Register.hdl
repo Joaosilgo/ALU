@@ -1,0 +1,10 @@
+
+
+CHIP Register {
+
+    IN  in[16], load;
+    OUT out[16];
+
+    BUILTIN Register;
+    CLOCKED in, load;
+}

@@ -1,0 +1,9 @@
+
+CHIP RAM4K {
+
+    IN  in[16], load, address[12];
+    OUT out[16];
+
+    BUILTIN RAM4K;
+    CLOCKED in, load;
+}

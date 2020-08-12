@@ -1,0 +1,30 @@
+Êþº¾   / r
+  7
+ 8 9
+ 8 : ;
+  7	  < =
+  >
+  ?
+  @
+  A
+  B	  C
+ D E	  F
+  G	  H
+ D I
+ J K
+  L M
+  N
+  O
+  P
+  Q R S
+  T U V W value S gui LHackGUI/RegisterComponent; <init> ()V Code clockUp 	clockDown getGUIComponent ()Ljava/awt/Component; valueChanged )(LHack/ComputerParts/ComputerPartEvent;)V updateValue (S)V guiGainedFocus 
+getValueAt (I)S 
+Exceptions 
+checkIndex (I)V 
+setValueAt (IS)V $ % X Y Z [ \ HackGUI/RegisterComponent " # PC: ] ^ _ % ` a b c d e f g h i j   ! 5 6 k g l . m n j o % Illegal address value p ^ - . q % 3 4 Hack/Gates/GateException PC has no index. Use PC[] $ ^ builtInChips/PC Hack/Gates/BuiltInGateWithGUI ,Hack/ComputerParts/ComputerPartEventListener Hack/Gates/GatesManager getInstance ()LHack/Gates/GatesManager; isChipsGUIEnabled ()Z setName (Ljava/lang/String;)V reset setLocation (II)V addListener 1(LHack/ComputerParts/ComputerPartEventListener;)V addErrorListener #(LHack/Events/ErrorEventListener;)V 	inputPins [LHack/Gates/Node; Hack/Gates/Node get ()S 
+outputPins set $Hack/ComputerParts/ComputerPartEvent getValue clearErrorListeners notifyErrorListeners 
+evalParent !         !    " #   
+  $ %  &   R     F*· ¸ ¶ ™ ;*» Y· µ *´ ¶ *´ ¶ 	*´ cº¶ 
+*´ *¶ *´ *¶ ±      ' %  &   t     h*´ 2¶ <*´ 2¶ =*´ 2¶ >*´ 2¶ 6  *µ §    *µ §   *Y´ `“µ *´ Æ *´ *´ ¶ ±      ( %  &        *´ 2*´ ¶ ±      ) *  &        *´ °      + ,  &   B     6+¶ =*¶ › 
+ÿ¤ *¶ *´ Æ *´ *´ ¶ § *· ±      - .  &   0     $*µ *´ 2¶ *¶ *´ Æ *´ ¶ ±      / %  &         ±      0 1  &        
+*· *´ ¬     2       3 4  &        ™ » Y· ¿±     2       5 6  &        *· *· ±     2       
